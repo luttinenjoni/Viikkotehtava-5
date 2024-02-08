@@ -34,7 +34,7 @@ document.querySelector('button').addEventListener('click', () => {
     } else {
         alert('Incorrect!')
         wAnswer++
-        
+        cAnswerElement.textContent = cAnswer
     }
 
     randomizeNumbers()
